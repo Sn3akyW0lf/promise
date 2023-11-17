@@ -28,20 +28,26 @@ const fruits = ['apple', 'oranges', '', 'mango', '', 'lemon'];
 //     console.log(ele);
 // }
 
-console.log(fruits.map(fruit => {
-    if (fruit === '') {
-        return 'empty string';
-    }
-    return fruit;
-}));
-console.log(fruits)
+// console.log(fruits.map(fruit => {
+//     if (fruit === '') {
+//         return 'empty string';
+//     }
+//     return fruit;
+// }));
+// console.log(fruits)
 
-const copyFruits = [...fruits];
-console.log(copyFruits);
+// const copyFruits = [...fruits];
+// console.log(copyFruits);
 
 
-const toArray = (...args) => {
-    return args;
+// const toArray = (...args) => {
+//     return args;
+// }
+
+// console.log(toArray(2, 4, 8, 16));
+
+const printName = ({ name }) => {
+    console.log(name)
 }
 
-console.log(toArray(2, 4, 8, 16));
+printName(student);
