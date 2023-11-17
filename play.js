@@ -1,21 +1,3 @@
-// const name = 'Max';
-// let age = 29;
-// const hasHobbies = true;
-
-// // name = 'Tony';
-// age = 35;
-
-// const summarizeUser = (userName, userAge, userHasHobbies) => {
-//     return `Name is ${userName}, age ${userAge} and user has hobbies: ${userHasHobbies}`;
-// }
-
-// const prod = (a, b) => a * b;
-
-// console.log('Product: ' + prod(4, 8));
-
-// console.log(summarizeUser(name, age, hasHobbies));
-
-
 const person = {
     name: 'Tony',
     age: 45,
@@ -36,3 +18,17 @@ const student = {
 };
 
 student.intro();
+
+const array = ['apple', 'oranges', '', 'mango', '', 'lemon'];
+
+// for (let ele of array) {
+//     console.log(ele);
+// }
+
+console.log(array.map(ele => {
+    if (ele === '') {
+        return 'empty string';
+    }
+    return ele;
+}));
+console.log(array)
