@@ -9,6 +9,7 @@ const requestHandler = (req, res) => {
             if (err) {
                 console.log(err);
             }
+            
             res.setHeader('Content-Type', 'text/html');
             res.write('<html');
             res.write('<head><title>Enter Message</title></head>');
