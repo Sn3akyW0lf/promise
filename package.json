@@ -20,5 +20,9 @@
   "homepage": "https://github.com/Sn3akyW0lf/promise#readme",
   "devDependencies": {
     "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2"
   }
 }
